@@ -31,3 +31,11 @@ function getListRandom(n, min, max) {
     }
     return array;
 }
+
+function buttonOpacity() {
+    if (document.getElementById("pokeball").style.opacity == "1") {
+        document.getElementById("pokeball").style.opacity = "0.5";
+    } else {
+        document.getElementById("pokeball").style.opacity = "1";
+    }
+}
