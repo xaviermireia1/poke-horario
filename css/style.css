@@ -24,6 +24,7 @@ div.scrollmenu div.card {
 
 img {
     width: 40vh;
+    border-radius: 10px;
 }
 
 header,
